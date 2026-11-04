@@ -21,6 +21,16 @@ As transições começam 0,30 s antes de cada fala, para a nova cena já estar n
 tela quando a frase começa. Para mudar cortes, legendas ou batidas, edite
 `prep_timeline.py` e rode de novo.
 
+## Posição das legendas
+
+A legenda muda de altura ao longo do vídeo para não cobrir o que a fala está
+explicando (lista `CAPTION_Y` em `prep_timeline.py`, em coordenadas da cena;
+o motor converte pelo zoom da câmera). Ela fica na zona segura do Shorts
+(abaixo do topo e acima da interface inferior do YouTube) e as trocas de
+posição só acontecem em pausas da fala. `silences.json` (ffmpeg
+`silencedetect`) é usado para impedir que uma palavra comece dentro de uma
+pausa, já que o Whisper às vezes marca o início até 0,6 s antes da voz.
+
 ## Reproduzir
 
 ```bash

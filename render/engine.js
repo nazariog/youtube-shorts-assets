@@ -120,7 +120,26 @@ function drawScraps(t) {
 }
 
 // ---------------------------------------------------------------- legendas
-const CAP_Y = 1430, CAP_FONT = 'px Anton, Impact, sans-serif', GAP = 44;
+const CAP_FONT = 'px Anton, Impact, sans-serif', GAP = 40;
+// Altura (centro) da legenda em função do tempo, definida em timeline.json
+// (caption_y). Cada trecho coloca a legenda sobre algo que NÃO está sendo
+// comentado naquele momento. "tw" = duração (s) da animação de deslocamento.
+// As alturas em timeline.json estão em coordenadas da CENA (1080x1920, sem
+// zoom). A conversão usa o zoom de câmera da cena, para a legenda acompanhar a
+// mesma faixa livre enquanto a câmera se aproxima ou se afasta.
+function zoomBase(i, t) {
+  const u = clamp((t - S[i]) / sceneDur(i));
+  return 1.055 + 0.06 * (i % 2 === 0 ? u : 1 - u);
+}
+function capSeg(t) {
+  const seg = T.caption_y;
+  let k = 0; for (let i = 0; i < seg.length; i++) if (t >= seg[i].t) k = i;
+  return seg[k];
+}
+function capY(t) {
+  const cur = capSeg(t);
+  return H / 2 + (cur.y - H / 2) * zoomBase(cur.scene, t);
+}
 function drawCaption(t) {
   let ch = null;
   for (const c of T.chunks) if (t >= c.s - 0.02 && t < c.hide) ch = c;
@@ -129,11 +148,11 @@ function drawCaption(t) {
   const pop = age < .16 ? E.outBack(clamp(age / .16)) : 1;
   const fade = clamp((ch.hide - t) / .08);
   main.save();
-  main.font = '112' + CAP_FONT; main.textBaseline = 'middle'; main.lineJoin = 'round';
+  const fs = capSeg(t).fs; main.font = fs + CAP_FONT; main.textBaseline = 'middle'; main.lineJoin = 'round';
   const ws = ch.words.map(w => main.measureText(w.w).width);
   const total = ws.reduce((a, b) => a + b, 0) + GAP * (ch.words.length - 1);
   const fit = Math.min(1, 960 / total);
-  main.translate(W / 2, CAP_Y); main.rotate(-0.012); main.scale(fit * (.8 + .2 * pop), fit * (.8 + .2 * pop));
+  main.translate(W / 2, capY(t)); main.rotate(-0.012); main.scale(fit * (.8 + .2 * pop), fit * (.8 + .2 * pop));
   main.globalAlpha = clamp(pop * 3) * fade;
   let activeIdx = 0; ch.words.forEach((w, k) => { if (t >= w.s - 0.01) activeIdx = k; });
   // Duas passagens: primeiro todos os contornos, depois todos os preenchimentos,
@@ -148,7 +167,7 @@ function drawCaption(t) {
       main.textAlign = 'center';
       if (pass === 'stroke') {
         main.shadowColor = 'rgba(0,0,0,.55)'; main.shadowBlur = 18; main.shadowOffsetY = 9;
-        main.lineWidth = 22; main.strokeStyle = C.deep; main.strokeText(w.w, 0, 0);
+        main.lineWidth = fs * 0.185; main.strokeStyle = C.deep; main.strokeText(w.w, 0, 0);
       } else {
         main.fillStyle = active ? (w.em ? '#FF5A3C' : '#FFD35E') : (w.em ? '#FFB199' : '#FFFFFF');
         main.fillText(w.w, 0, 0);
@@ -192,5 +211,7 @@ window.renderFrame = function (f) {
   drawCaption(t);
   return out.toDataURL('image/jpeg', 0.95);
 };
+// Auxiliar de análise: cena sem câmera/legenda (tl >= 1e9: completa; tl < 0: só o fundo)
+window.sceneDataURL = (i, tl) => { drawScene(i, live[0], tl); return live[0].toDataURL('image/png'); };
 window.ENGINE_READY = true;
 })();
