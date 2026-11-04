@@ -1,0 +1,1036 @@
+{
+ "duration": 48.36,
+ "fps": 30,
+ "bounds": [
+  0.0,
+  6.75,
+  16.86,
+  29.66,
+  35.92
+ ],
+ "beats": [
+  2.82,
+  5.78,
+  10.54,
+  12.96,
+  19.7,
+  23.8,
+  25.16,
+  31.2,
+  33.68,
+  39.96,
+  44.52,
+  47.64
+ ],
+ "thumps": [
+  2.82,
+  5.78,
+  12.96,
+  19.7,
+  39.96,
+  44.52
+ ],
+ "caption_y": [
+  {
+   "t": 0.0,
+   "scene": 0,
+   "y": 1455,
+   "fs": 92
+  },
+  {
+   "t": 6.7,
+   "scene": 1,
+   "y": 845,
+   "fs": 92
+  },
+  {
+   "t": 16.85,
+   "scene": 2,
+   "y": 471,
+   "fs": 78
+  },
+  {
+   "t": 21.52,
+   "scene": 2,
+   "y": 1010,
+   "fs": 92
+  },
+  {
+   "t": 29.75,
+   "scene": 3,
+   "y": 1300,
+   "fs": 92
+  },
+  {
+   "t": 32.2,
+   "scene": 3,
+   "y": 880,
+   "fs": 92
+  },
+  {
+   "t": 36.0,
+   "scene": 4,
+   "y": 520,
+   "fs": 80
+  }
+ ],
+ "chunks": [
+  {
+   "s": 0.0,
+   "hide": 0.94,
+   "words": [
+    {
+     "w": "THIS",
+     "s": 0.0,
+     "em": false
+    },
+    {
+     "w": "ISN'T",
+     "s": 0.56,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 0.94,
+   "hide": 2.19,
+   "words": [
+    {
+     "w": "AN",
+     "s": 0.94,
+     "em": false
+    },
+    {
+     "w": "AI",
+     "s": 1.08,
+     "em": false
+    },
+    {
+     "w": "BOOM",
+     "s": 1.32,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 2.303,
+   "hide": 2.82,
+   "words": [
+    {
+     "w": "IT'S",
+     "s": 2.303,
+     "em": false
+    },
+    {
+     "w": "AN",
+     "s": 2.44,
+     "em": false
+    },
+    {
+     "w": "AI",
+     "s": 2.52,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 2.82,
+   "hide": 3.71,
+   "words": [
+    {
+     "w": "BUBBLE",
+     "s": 2.82,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 3.829,
+   "hide": 4.28,
+   "words": [
+    {
+     "w": "AND",
+     "s": 3.829,
+     "em": false
+    },
+    {
+     "w": "THE",
+     "s": 3.92,
+     "em": false
+    },
+    {
+     "w": "WARNING",
+     "s": 4.02,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 4.28,
+   "hide": 5.4,
+   "words": [
+    {
+     "w": "LIGHTS",
+     "s": 4.28,
+     "em": false
+    },
+    {
+     "w": "ARE",
+     "s": 4.62,
+     "em": false
+    },
+    {
+     "w": "ALREADY",
+     "s": 4.84,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 5.4,
+   "hide": 6.63,
+   "words": [
+    {
+     "w": "FLASHING",
+     "s": 5.4,
+     "em": false
+    },
+    {
+     "w": "RED",
+     "s": 5.78,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 6.997,
+   "hide": 7.62,
+   "words": [
+    {
+     "w": "IGNORE",
+     "s": 6.997,
+     "em": false
+    },
+    {
+     "w": "THE",
+     "s": 7.24,
+     "em": false
+    },
+    {
+     "w": "HYPE",
+     "s": 7.38,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 7.62,
+   "hide": 8.14,
+   "words": [
+    {
+     "w": "AND",
+     "s": 7.62,
+     "em": false
+    },
+    {
+     "w": "LOOK",
+     "s": 7.9,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 8.14,
+   "hide": 9.15,
+   "words": [
+    {
+     "w": "AT",
+     "s": 8.14,
+     "em": false
+    },
+    {
+     "w": "THE",
+     "s": 8.24,
+     "em": false
+    },
+    {
+     "w": "MATH",
+     "s": 8.34,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 9.292,
+   "hide": 9.62,
+   "words": [
+    {
+     "w": "BIG",
+     "s": 9.292,
+     "em": false
+    },
+    {
+     "w": "TECH",
+     "s": 9.42,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 9.62,
+   "hide": 10.1,
+   "words": [
+    {
+     "w": "IS",
+     "s": 9.62,
+     "em": false
+    },
+    {
+     "w": "POURING",
+     "s": 9.84,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 10.1,
+   "hide": 10.82,
+   "words": [
+    {
+     "w": "OVER",
+     "s": 10.1,
+     "em": false
+    },
+    {
+     "w": "A",
+     "s": 10.36,
+     "em": false
+    },
+    {
+     "w": "TRILLION",
+     "s": 10.54,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 10.82,
+   "hide": 11.76,
+   "words": [
+    {
+     "w": "DOLLARS",
+     "s": 10.82,
+     "em": false
+    },
+    {
+     "w": "INTO",
+     "s": 11.36,
+     "em": false
+    },
+    {
+     "w": "DATA",
+     "s": 11.56,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 11.76,
+   "hide": 12.74,
+   "words": [
+    {
+     "w": "CENTERS",
+     "s": 11.76,
+     "em": false
+    },
+    {
+     "w": "LEAVING",
+     "s": 12.12,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 12.74,
+   "hide": 13.86,
+   "words": [
+    {
+     "w": "A",
+     "s": 12.74,
+     "em": false
+    },
+    {
+     "w": "$600",
+     "s": 12.96,
+     "em": true
+    },
+    {
+     "w": "BILLION",
+     "s": 13.38,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 13.86,
+   "hide": 14.8,
+   "words": [
+    {
+     "w": "REVENUE",
+     "s": 13.86,
+     "em": false
+    },
+    {
+     "w": "HOLE",
+     "s": 14.46,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 14.8,
+   "hide": 15.72,
+   "words": [
+    {
+     "w": "THAT",
+     "s": 14.8,
+     "em": false
+    },
+    {
+     "w": "NOBODY",
+     "s": 15.02,
+     "em": false
+    },
+    {
+     "w": "KNOWS",
+     "s": 15.44,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 15.72,
+   "hide": 16.69,
+   "words": [
+    {
+     "w": "HOW",
+     "s": 15.72,
+     "em": false
+    },
+    {
+     "w": "TO",
+     "s": 15.88,
+     "em": false
+    },
+    {
+     "w": "FILL",
+     "s": 15.94,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 17.129,
+   "hide": 17.68,
+   "words": [
+    {
+     "w": "IMAGINE",
+     "s": 17.129,
+     "em": false
+    },
+    {
+     "w": "BUILDING",
+     "s": 17.28,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 17.68,
+   "hide": 19.16,
+   "words": [
+    {
+     "w": "A",
+     "s": 17.68,
+     "em": false
+    },
+    {
+     "w": "10-LANE",
+     "s": 17.88,
+     "em": false
+    },
+    {
+     "w": "SUPERHIGHWAY",
+     "s": 18.36,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 19.16,
+   "hide": 19.7,
+   "words": [
+    {
+     "w": "TO",
+     "s": 19.16,
+     "em": false
+    },
+    {
+     "w": "A",
+     "s": 19.34,
+     "em": false
+    },
+    {
+     "w": "GHOST",
+     "s": 19.48,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 19.7,
+   "hide": 20.26,
+   "words": [
+    {
+     "w": "TOWN",
+     "s": 19.7,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 20.26,
+   "hide": 21.52,
+   "words": [
+    {
+     "w": "THAT'S",
+     "s": 20.26,
+     "em": false
+    },
+    {
+     "w": "SILICON",
+     "s": 20.86,
+     "em": false
+    },
+    {
+     "w": "VALLEY",
+     "s": 21.1,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 21.52,
+   "hide": 22.57,
+   "words": [
+    {
+     "w": "RIGHT",
+     "s": 21.52,
+     "em": false
+    },
+    {
+     "w": "NOW",
+     "s": 21.8,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 22.718,
+   "hide": 23.12,
+   "words": [
+    {
+     "w": "THEY'RE",
+     "s": 22.718,
+     "em": false
+    },
+    {
+     "w": "HOARDING",
+     "s": 22.84,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 23.12,
+   "hide": 24.02,
+   "words": [
+    {
+     "w": "NVIDIA",
+     "s": 23.12,
+     "em": false
+    },
+    {
+     "w": "CHIPS",
+     "s": 23.46,
+     "em": false
+    },
+    {
+     "w": "LIKE",
+     "s": 23.8,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 24.02,
+   "hide": 25.16,
+   "words": [
+    {
+     "w": "GOLD",
+     "s": 24.02,
+     "em": true
+    },
+    {
+     "w": "AND",
+     "s": 24.4,
+     "em": false
+    },
+    {
+     "w": "BURNING",
+     "s": 24.94,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 25.16,
+   "hide": 26.38,
+   "words": [
+    {
+     "w": "BILLIONS",
+     "s": 25.16,
+     "em": true
+    },
+    {
+     "w": "ON",
+     "s": 25.72,
+     "em": false
+    },
+    {
+     "w": "ELECTRICITY",
+     "s": 25.96,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 26.38,
+   "hide": 27.92,
+   "words": [
+    {
+     "w": "WITH",
+     "s": 26.38,
+     "em": false
+    },
+    {
+     "w": "ZERO",
+     "s": 27.06,
+     "em": true
+    },
+    {
+     "w": "GUARANTEE",
+     "s": 27.52,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 27.92,
+   "hide": 28.36,
+   "words": [
+    {
+     "w": "OF",
+     "s": 27.92,
+     "em": false
+    },
+    {
+     "w": "MAKING",
+     "s": 28.16,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 28.36,
+   "hide": 29.55,
+   "words": [
+    {
+     "w": "THAT",
+     "s": 28.36,
+     "em": false
+    },
+    {
+     "w": "MONEY",
+     "s": 28.56,
+     "em": false
+    },
+    {
+     "w": "BACK",
+     "s": 28.74,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 29.98,
+   "hide": 30.78,
+   "words": [
+    {
+     "w": "VALUATIONS",
+     "s": 29.98,
+     "em": false
+    },
+    {
+     "w": "ARE",
+     "s": 30.42,
+     "em": false
+    },
+    {
+     "w": "HITTING",
+     "s": 30.6,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 30.78,
+   "hide": 32.2,
+   "words": [
+    {
+     "w": "DOT-COM",
+     "s": 30.78,
+     "em": false
+    },
+    {
+     "w": "CRASH",
+     "s": 31.2,
+     "em": true
+    },
+    {
+     "w": "LEVELS",
+     "s": 31.78,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 32.2,
+   "hide": 33.24,
+   "words": [
+    {
+     "w": "WHILE",
+     "s": 32.2,
+     "em": false
+    },
+    {
+     "w": "FREE",
+     "s": 32.7,
+     "em": false
+    },
+    {
+     "w": "CASH",
+     "s": 32.94,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 33.24,
+   "hide": 34.46,
+   "words": [
+    {
+     "w": "FLOW",
+     "s": 33.24,
+     "em": false
+    },
+    {
+     "w": "GETS",
+     "s": 33.46,
+     "em": false
+    },
+    {
+     "w": "INCINERATED",
+     "s": 33.68,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 34.46,
+   "hide": 35.91,
+   "words": [
+    {
+     "w": "BY",
+     "s": 34.46,
+     "em": false
+    },
+    {
+     "w": "HARDWARE",
+     "s": 34.66,
+     "em": false
+    },
+    {
+     "w": "COSTS",
+     "s": 34.98,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 36.138,
+   "hide": 36.62,
+   "words": [
+    {
+     "w": "THE",
+     "s": 36.138,
+     "em": false
+    },
+    {
+     "w": "TECHNOLOGY",
+     "s": 36.2,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 36.62,
+   "hide": 37.4,
+   "words": [
+    {
+     "w": "IS",
+     "s": 36.62,
+     "em": false
+    },
+    {
+     "w": "REVOLUTIONARY",
+     "s": 36.88,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 37.4,
+   "hide": 38.35,
+   "words": [
+    {
+     "w": "SURE",
+     "s": 37.4,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 38.498,
+   "hide": 38.9,
+   "words": [
+    {
+     "w": "BUT",
+     "s": 38.498,
+     "em": false
+    },
+    {
+     "w": "THE",
+     "s": 38.54,
+     "em": false
+    },
+    {
+     "w": "STOCK",
+     "s": 38.66,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 38.9,
+   "hide": 39.69,
+   "words": [
+    {
+     "w": "MARKET",
+     "s": 38.9,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 39.806,
+   "hide": 40.89,
+   "words": [
+    {
+     "w": "IT'S",
+     "s": 39.806,
+     "em": false
+    },
+    {
+     "w": "DELUSIONAL",
+     "s": 39.96,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 41.134,
+   "hide": 41.48,
+   "words": [
+    {
+     "w": "SO",
+     "s": 41.134,
+     "em": false
+    },
+    {
+     "w": "IS",
+     "s": 41.24,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 41.48,
+   "hide": 41.94,
+   "words": [
+    {
+     "w": "THIS",
+     "s": 41.48,
+     "em": false
+    },
+    {
+     "w": "THE",
+     "s": 41.62,
+     "em": false
+    },
+    {
+     "w": "NEXT",
+     "s": 41.78,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 41.94,
+   "hide": 43.43,
+   "words": [
+    {
+     "w": "INDUSTRIAL",
+     "s": 41.94,
+     "em": false
+    },
+    {
+     "w": "REVOLUTION",
+     "s": 42.48,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 43.557,
+   "hide": 44.14,
+   "words": [
+    {
+     "w": "OR",
+     "s": 43.557,
+     "em": false
+    },
+    {
+     "w": "A",
+     "s": 43.66,
+     "em": false
+    },
+    {
+     "w": "TRILLION",
+     "s": 43.94,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 44.14,
+   "hide": 45.43,
+   "words": [
+    {
+     "w": "DOLLAR",
+     "s": 44.14,
+     "em": false
+    },
+    {
+     "w": "DISASTER?",
+     "s": 44.52,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 45.805,
+   "hide": 46.18,
+   "words": [
+    {
+     "w": "ARE",
+     "s": 45.805,
+     "em": false
+    },
+    {
+     "w": "YOU",
+     "s": 45.86,
+     "em": false
+    },
+    {
+     "w": "BUYING",
+     "s": 45.96,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 46.18,
+   "hide": 46.99,
+   "words": [
+    {
+     "w": "THE",
+     "s": 46.18,
+     "em": false
+    },
+    {
+     "w": "DIP",
+     "s": 46.34,
+     "em": true
+    }
+   ]
+  },
+  {
+   "s": 47.025,
+   "hide": 47.36,
+   "words": [
+    {
+     "w": "OR",
+     "s": 47.025,
+     "em": false
+    },
+    {
+     "w": "RUNNING",
+     "s": 47.08,
+     "em": false
+    }
+   ]
+  },
+  {
+   "s": 47.36,
+   "hide": 49.36,
+   "words": [
+    {
+     "w": "FOR",
+     "s": 47.36,
+     "em": false
+    },
+    {
+     "w": "THE",
+     "s": 47.54,
+     "em": false
+    },
+    {
+     "w": "EXIT?",
+     "s": 47.64,
+     "em": true
+    }
+   ]
+  }
+ ]
+}
